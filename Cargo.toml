@@ -1,11 +1,11 @@
 [workspace]
-members = {
+members = [
 	"crates/model",
 	"crates/database",
 	"crates/miner",
 	"crates/compiler",
 	"crates/gui",
-}
+]
 
 resolver = "3"
 
@@ -15,4 +15,4 @@ edition = "2024"
 authors = ["Iván Reyes dev@puapc.net"]
 repository = "https://github.com/ivannpy/myp_proyecto_2"
 
-[dependencies]
+[workspace.dependencies]
