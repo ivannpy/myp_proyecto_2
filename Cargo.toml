@@ -1,0 +1,18 @@
+[workspace]
+members = {
+	"crates/model",
+	"crates/database",
+	"crates/miner",
+	"crates/compiler",
+	"crates/gui",
+}
+
+resolver = "3"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+authors = ["Iván Reyes dev@puapc.net"]
+repository = "https://github.com/ivannpy/myp_proyecto_2"
+
+[dependencies]
