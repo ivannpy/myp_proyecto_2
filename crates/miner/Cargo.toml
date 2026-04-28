@@ -6,3 +6,5 @@ authors.workspace = true
 repository.workspace = true
 
 [dependencies]
+id3 = "1.16.4"
+walkdir = "2.5.0"
