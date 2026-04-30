@@ -6,3 +6,4 @@ authors.workspace = true
 repository.workspace = true
 
 [dependencies]
+miner = {path = "../miner"}
